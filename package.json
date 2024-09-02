@@ -1,0 +1,22 @@
+{
+  "name": "todo-graphql-server",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node-dev index.ts"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.7.1",
+    "cors": "^2.8.5",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/node": "^18.16.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  }
+}
